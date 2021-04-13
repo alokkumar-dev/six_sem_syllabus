@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.main_div{
+    background-color: rgb(88, 235, 186);
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-transform: uppercase;
+}
+.G{
+    color: red;
+    
+}
+.p{
+    color: blue;
+}
+.g{
+    color: chartreuse;
+}
+.branch_name p{
+    text-transform: uppercase;   
+}
