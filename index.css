@@ -8,7 +8,9 @@ body{
     height: auto;
 }
 .main_div{
-    background-color: rgb(88, 235, 186);
+    background-color: rgb(139, 156, 151);
+    width: 80vw;
+    height: auto;
 }
 header{
     font-family: 'Courier New', Courier, monospace;
