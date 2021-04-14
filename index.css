@@ -11,12 +11,31 @@ body{
     background-color: rgb(139, 156, 151);
     width: 80vw;
     height: auto;
+    margin: 40px;
+    padding: 60px;
 }
 header{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
     text-transform: uppercase;
+    text-align: center;
+
 }
+.branch_name{
+    margin-top: 10px;
+    text-align: center;
+}
+.line{
+    margin-top: 10px;
+    
+    margin-left: 60px;
+    height: 4px;
+    background-color: brown;
+    width: 15rem;
+
+  
+}
+
 .G{
     color: red;
     
