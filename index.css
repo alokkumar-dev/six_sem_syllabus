@@ -1,51 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    width: 100%;
-    height: auto;
+    margin: 20px;
+    padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
 }
-.main_div{
-    background-color: rgb(139, 156, 151);
-    width: 80vw;
-    height: auto;
-    margin: 40px;
-    padding: 60px;
+.sub_link{
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: rgb(222, 225, 228);
+    box-shadow: 10px 10px 10px rgb(156, 152, 156);
+    padding:20px 0px 30px 30px;
+    text-decoration: underline;
 }
-header{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-
+li{
+   padding: 5.5px;
 }
-.branch_name{
-    margin-top: 10px;
-    text-align: center;
-}
-.line{
-    margin-top: 10px;
+.sub_name{
+    padding:7px;
     
-    margin-left: 60px;
-    height: 4px;
-    background-color: brown;
-    width: 15rem;
-
-  
 }
+section{
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
 
+}
 .G{
-    color: red;
-    
+   color:red;
 }
-.p{
-    color: blue;
+.P{
+   color: #00f;
 }
 .g{
-    color: chartreuse;
+   color: green;
 }
-.branch_name p{
-    text-transform: uppercase;   
+.branch_name{
+   margin-top: 10px;
+   text-align:center;
+   font-weight: bold;
+   font-size:22px;
+   color: rgb(88, 2, 24);
 }
+hr{
+  background-color: red;
+    width:50%;
+    height:0.15em;
+    margin-top: 30px;
+}
+#title{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+/* .downlode-image{
+   width: 300px;
+    height: auto;
+    margin-left: 20px;
+    
+} */
+.syllabus{
+   margin-top: 30px;
+}
+#toTop.show{
+   right: 8px;
+   opacity: 1;
+}
+
