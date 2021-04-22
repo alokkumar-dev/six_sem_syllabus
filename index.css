@@ -7,7 +7,7 @@ body{
     padding: 10px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
 }
-.sub_link{
+#sub_link{
     font-weight: bold;
     margin-top: 25px;
     background-color: rgb(222, 225, 228);
@@ -37,7 +37,7 @@ section{
 .g{
    color: green;
 }
-.branch_name{
+#branch_name{
    margin-top: 10px;
    text-align:center;
    font-weight: bold;
@@ -49,6 +49,7 @@ hr{
     width:50%;
     height:0.15em;
     margin-top: 30px;
+    margin: 0 20% 0 20%;
 }
 #title{
     text-align: center;
