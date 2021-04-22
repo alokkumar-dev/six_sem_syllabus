@@ -1,10 +1,10 @@
-*{
+/* *{
    margin: 0;
    padding: 0;
-}
+} */
 body{
-    margin: 20px;
-    padding: 10px;
+    /* margin:5px;
+    padding: 5px; */
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
 }
 #sub_link{
@@ -14,6 +14,7 @@ body{
     box-shadow: 10px 10px 10px rgb(156, 152, 156);
     padding:20px 0px 30px 30px;
     text-decoration: underline;
+    box-sizing: border-box;
 }
 li{
    padding: 5.5px;
@@ -23,9 +24,11 @@ li{
     
 }
 section{
-   font-size: 20px;
    font-weight: bold;
    text-transform: uppercase;
+   text-align: center;
+   /* width: 80vw; */
+   font-size: 30px;
 
 }
 .G{
@@ -51,11 +54,11 @@ hr{
     margin-top: 30px;
     margin: 0 20% 0 20%;
 }
-#title{
+/* #title{
     text-align: center;
     width: 100%;
     font-size: 30px;
-}
+} */
 /* .downlode-image{
    width: 300px;
     height: auto;
