@@ -18,6 +18,9 @@ body{
     text-decoration: underline;
     box-sizing: border-box;
 }
+h2{
+   text-align: center;
+}
 li{
    padding: 5.5px;
 }
