@@ -5,6 +5,7 @@
 body{
     /* margin:5px;
     padding: 5px; */
+    box-sizing: border-box;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
 }
 #sub_link{
@@ -12,7 +13,8 @@ body{
     margin-top: 25px;
     background-color: rgb(222, 225, 228);
     box-shadow: 10px 10px 10px rgb(156, 152, 156);
-    padding:20px 0px 30px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: underline;
     box-sizing: border-box;
 }
@@ -23,12 +25,12 @@ li{
     padding:7px;
     
 }
-section{
+#title{
    font-weight: bold;
    text-transform: uppercase;
-   text-align: center;
+   /* text-align: center; */
    /* width: 80vw; */
-   font-size: 30px;
+   font-size: 21px;
 
 }
 .G{
@@ -44,7 +46,7 @@ section{
    margin-top: 10px;
    text-align:center;
    font-weight: bold;
-   font-size:22px;
+   font-size:21px;
    color: rgb(88, 2, 24);
 }
 hr{
@@ -68,8 +70,8 @@ hr{
 .syllabus{
    margin-top: 30px;
 }
-#toTop.show{
+/* #toTop.show{
    right: 8px;
    opacity: 1;
-}
+} */
 
