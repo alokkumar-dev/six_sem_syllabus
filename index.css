@@ -1,13 +1,11 @@
-/* *{
-   margin: 0;
-   padding: 0;
-} */
+
 body{
-    /* margin:5px;
-    padding: 5px; */
+    margin:0;
+    padding: 0;
     box-sizing: border-box;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoejkmzyHcN4VmssORqOq_3-ccrpjAvf5i-g&usqp=CAU);
-}
+    margin-top: 25px;
+   }
 #sub_link{
     font-weight: bold;
     margin-top: 25px;
@@ -33,7 +31,7 @@ li{
    text-transform: uppercase;
    /* text-align: center; */
    /* width: 80vw; */
-   font-size: 20px;
+   font-size: 21px;
 
 }
 .G{
@@ -53,11 +51,11 @@ li{
    color: rgb(88, 2, 24);
 }
 hr{
-  background-color: red;
-    width:50%;
+    background-color: red;
+    width: 40%;
     height:0.15em;
     margin-top: 30px;
-    margin: 0 20% 0 20%;
+    margin: 0 30% 0 30%;
 }
 /* #title{
     text-align: center;
